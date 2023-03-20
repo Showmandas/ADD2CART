@@ -5,7 +5,8 @@ const products=[
         name:'pumas',
         size:'99cm',
         img:'images/1.jpg',
-        prize:'100/-',
+        instock: 6,
+        price:100,
     },
     {
         id:1,
@@ -13,25 +14,48 @@ const products=[
         name:'puma',
         size:'100cm',
         img:'images/2.jfif',
-        prize:'120/-',
+        instock: 15,
+        price:120,
 
     },
     {
-        id:3,
+        id:2,
         brand:'susu3',
         name:'pusas',
         size:'99cm',
         img:'images/3.jfif',
-        prize:'150/-',
+        instock: 40,
+        price:150,
 
     },
     {
-        id:4,
+        id:3,
         brand:'susu5',
         name:'pumasss',
         size:'100cm',
         img:'images/4.jfif',
-        prize:'90/-',
+        instock: 40,
+        price:90,
+
+    },
+    {
+        id:4,
+        brand:'puma5',
+        name:'pumss',
+        size:'99cm',
+        img:'images/5.jfif',
+        instock: 25,
+        price:160,
+
+    },
+    {
+        id:5,
+        brand:'asha',
+        name:'adada',
+        size:'100cm',
+        img:'images/6.jfif',
+        instock: 5,
+        price:100,
 
     },
 ]

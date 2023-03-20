@@ -46,9 +46,57 @@
               </div>
             </div>
           </nav><!--/navbar-->
+          <section class="product-section mt-4 my-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row" id="productCard">
+                        
+                    </div>
+                </div><!--/col-lg-8-->
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card item</h5>
+                          <div id="cart-item">
+
+                          </div>
+                          <div class="cart-footer my-5 mt-5">
+                            <div id="subtotal">
+                                Subtotal (0 items): $0
+                            </div>
+                            <div class="checkout">
+                                Proceed to checkout
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                </div><!--/col-lg-4-->
+            </div><!--/row-->
+          </section><!--/product-section-->
     </div><!--/container-->
-    
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="detailsModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="showDetails">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="products.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
